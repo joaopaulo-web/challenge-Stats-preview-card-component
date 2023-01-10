@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    width: 1000px;
+    height: 446px;
+}
+.left-card{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(244, 38%, 16%);
+    width: 480px;
+    height: 446px;
+}
+span{
+    color: hsl(277, 64%, 61%);
+}
+.text{
+    padding-left: 50px;
+    padding-right: 60px;
+    width: 480px;
+    height: 250px;
+}
+.text > h1{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 33px;
+    line-height: 1.3em;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.text-p{
+    padding-top: 35px;
+    background-color: rgba(0, 255, 255, 0.007);
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    line-height: 1.8;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.h2-1{
+    padding-right: 73px;
+}
+.h2-2{
+    padding-right: 73px;
+}
+.h2-3{
+    padding-right: 73px;
+}
+.principals-horizontal-texts{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 90px;
+}
+.principals-horizontal-texts > h2{
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.h2-1 > p{
+    letter-spacing: 1px;
+    font-size: .8em;
+    padding-top: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.h2-2 > p{
+    letter-spacing: 1px;
+    font-size: .8em;
+    padding-top: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.h2-3 > p{
+    letter-spacing: 1px;
+    font-size: .8em;
+    padding-top: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.right-card{
+    background-color: hsl(277, 92%, 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 540px;
+    height: 446px;
+}
+.right-card > img{
+    opacity: .4;
+}
