@@ -18,6 +18,7 @@ body{
     justify-content: center;
 }
 .main-card{
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +26,8 @@ body{
     width: 1000px;
     height: 446px;
 }
-.left-card{
+.left-card{    
+    border-radius: 20px;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -100,6 +102,10 @@ span{
     color: hsla(0, 0%, 100%, 0.6);
 }
 .right-card{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: hsl(277, 92%, 25%);
     display: flex;
     justify-content: center;
@@ -108,5 +114,52 @@ span{
     height: 446px;
 }
 .right-card > img{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     opacity: .4;
+}
+
+@media screen and (max-width: 650px) {
+    .container{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 95vh;
+        width: 350px;
+    }
+    .left-card{
+        border-radius: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width: 350px;
+    }
+    .right-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30vh;
+        width: 350px;
+        
+    }
+    
+    .right-card > img{
+        border-radius: 0px;
+        background-size: cover;
+        height: 280px;
+        width: 350px;
+        margin-bottom: 494px;
+    }
 }
